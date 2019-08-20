@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SitesComponent implements OnInit {
   sites: Site[] = [{
-    name: "site1",
-    description: "a site",
+    name: "demo website",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ullamcorper tortor non quam rhoncus finibus.",
     img_url: "https://cdn.dribbble.com/users/476251/screenshots/2619255/attachments/523315/placeholder.png",
     techs: ["html", "css", "angular"]
   }];

@@ -5,7 +5,8 @@
     </div>
     <div class="card-right">
       <h3>{{ site.name }}</h3>
-      <p>{{ site.description }}</p>
+      <hr>
+      <p class="card-description">{{ site.description }}</p>
       <div class="card-techs">
         <p *ngFor="let tech of site.techs">{{ tech }}</p>
       </div>
