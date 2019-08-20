@@ -8,7 +8,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
   
-  val title: string = 'title text'; 
+  title: string = 'title text'; 
 
   constructor(private route: ActivatedRoute) { }
 

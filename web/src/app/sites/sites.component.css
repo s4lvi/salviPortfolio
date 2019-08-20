@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    width: 60%;
+    background-color: rgb(9, 17, 9);
+    border-radius: 4px;
+    margin: 10px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.card-left {
+    width: 40%;
+}
+
+.card-left img {
+    height: 100%;
+}
+
+.card-right {
+    display: flex;
+    width: 60%;
+    background-color: rgb(9, 17, 9);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-techs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-techs p {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 2px;
+    margin: 8px;
+}

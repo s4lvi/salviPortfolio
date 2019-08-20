@@ -1,3 +1,14 @@
-<p>
-  sites works!
-</p>
+<div *ngFor="let site of sites">
+  <div class="card">
+    <div class="card-left">
+      <img src="{{ site.img_url }}" />
+    </div>
+    <div class="card-right">
+      <h3>{{ site.name }}</h3>
+      <p>{{ site.description }}</p>
+      <div class="card-techs">
+        <p *ngFor="let tech of site.techs">{{ tech }}</p>
+      </div>
+    </div>
+  </div>
+</div>
