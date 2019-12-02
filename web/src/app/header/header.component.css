@@ -1,0 +1,29 @@
+#header {
+    display: flex;
+    background-image: url("/assets/background2.jpg");
+    background-size:     cover;  
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 100vh;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#name {
+    display: flex;
+    font-weight: 100;
+    font-size: 500%;
+}
+
+hr {
+    width: 25%;
+    border-top: 2px solid white;
+}
+
+#email {
+    position: absolute;
+    bottom: 5%;
+    font-size: larger;
+}

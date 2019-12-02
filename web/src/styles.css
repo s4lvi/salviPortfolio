@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:100,200,300,400&display=swap');
+
 html {
     background-color: rgb(4, 7, 4);
     color: rgb(45, 144, 45);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
+}
+
+body {
+
+    margin: 0; 
+    padding: 0;
 }
 
 h2 {
@@ -12,4 +20,8 @@ h2 {
 h3 {
     font-weight: 100;
     letter-spacing: 0.2em;
+}
+
+hr {
+    border: none;
 }

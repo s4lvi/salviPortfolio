@@ -1,0 +1,33 @@
+#topnav {
+    position: fixed;
+    top: 0;
+    height: 5%;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(255, 168, 118, 0.25);
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-bottom: 1px;
+}
+
+#topnav li {
+    display: flex;
+    list-style: none;
+    font-size: x-large;
+    color: white;
+    cursor: pointer; 
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid transparent;
+    width: 20%;
+}
+
+#topnav li:hover {
+    background-color: rgba(255, 168, 118, 0.75);
+    border-bottom: 1px solid white;
+}
+

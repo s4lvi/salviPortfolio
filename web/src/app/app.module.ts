@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SitesComponent } from './sites/sites.component';
 import { RouterModule, Routes } from '@angular/router';
+import { HeaderComponent } from './header/header.component';
+import { TopnavComponent } from './topnav/topnav.component';
 const appRoutes: Routes = [
   {
     path: 'sites',
@@ -31,7 +33,9 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HomeComponent,
-    SitesComponent
+    SitesComponent,
+    HeaderComponent,
+    TopnavComponent
   ],
   imports: [
     BrowserModule,
