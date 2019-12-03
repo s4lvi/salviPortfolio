@@ -10,7 +10,7 @@
     align-items: center;
     background-color: rgba(255, 168, 118, 0.25);
     font-family: 'Open Sans Condensed', sans-serif;
-    padding-bottom: 1px;
+    padding-bottom: 2px;
 }
 
 #topnav li {
@@ -22,12 +22,12 @@
     height: 100%;
     align-items: center;
     justify-content: space-evenly;
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
     width: 20%;
 }
 
 #topnav li:hover {
     background-color: rgba(255, 168, 118, 0.75);
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
 }
 
