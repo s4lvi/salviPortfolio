@@ -7,6 +7,11 @@ import { SitesComponent } from './sites/sites.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { TopnavComponent } from './topnav/topnav.component';
+import { AboutComponent } from './about/about.component';
+import { DividerComponent } from './divider/divider.component';
+import { ContactComponent } from './contact/contact.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { FooterComponent } from './footer/footer.component';
 const appRoutes: Routes = [
   {
     path: 'sites',
@@ -35,7 +40,12 @@ const appRoutes: Routes = [
     HomeComponent,
     SitesComponent,
     HeaderComponent,
-    TopnavComponent
+    TopnavComponent,
+    AboutComponent,
+    DividerComponent,
+    ContactComponent,
+    ProjectsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
