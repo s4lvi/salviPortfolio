@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-topnav',
@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./topnav.component.css']
 })
 export class TopnavComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit() {
   }
 
+  scrollTo(link: string) {
+    var element=document.querySelector(link); 
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
 }
