@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { url } from 'inspector';
 
 @Component({
   selector: 'app-divider',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DividerComponent implements OnInit {
 
+  @Input() image: string;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  getUrl() {
+    return "url("+this.image+")";
   }
 
 }
